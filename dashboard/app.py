@@ -24,7 +24,7 @@ def load_hour_data():
 
 @st.cache_data
 def load_all_data():
-    return pd.read_csv('all_data.csv')
+    return pd.read_csv('dashboard/all_data.csv')
 
 # Memuat data semua data yg diperlukan
 day_df = load_day_data()
