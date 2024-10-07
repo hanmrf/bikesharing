@@ -16,11 +16,11 @@ st.sidebar.image(img)
 # function untuk memuat data
 @st.cache_data
 def load_day_data():
-    return pd.read_csv('data\\day.csv')
+    return pd.read_csv('data\day.csv')
 
 @st.cache_data
 def load_hour_data():
-    return pd.read_csv('data\\hour.csv')
+    return pd.read_csv('data\hour.csv')
 
 @st.cache_data
 def load_all_data():
